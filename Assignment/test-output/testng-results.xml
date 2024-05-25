@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-25T14:34:31 IST" name="Suite" finished-at="2024-05-25T14:36:16 IST" duration-ms="105207">
+    <groups>
+    </groups>
+    <test started-at="2024-05-25T14:34:31 IST" name="Test" finished-at="2024-05-25T14:36:16 IST" duration-ms="105207">
+      <class name="wingifyAssignmentTest.WingifyTestCase03">
+        <test-method is-config="true" signature="launching()[pri:0, instance:wingifyAssignmentTest.WingifyTestCase03@4d465b11]" started-at="2024-05-25T14:35:36 IST" name="launching" finished-at="2024-05-25T14:35:38 IST" duration-ms="2317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launching -->
+        <test-method signature="amountsortinincreasingorderfails()[pri:0, instance:wingifyAssignmentTest.WingifyTestCase03@4d465b11]" started-at="2024-05-25T14:35:38 IST" name="amountsortinincreasingorderfails" finished-at="2024-05-25T14:35:55 IST" duration-ms="16750" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Amounts should sort in increasingorder  expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Amounts should sort in increasingorder  expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at wingifyAssignmentSource.HomePage.amountsortinincreasingorderfailure(HomePage.java:38)
+at wingifyAssignmentTest.WingifyTestCase03.amountsortinincreasingorderfails(WingifyTestCase03.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amountsortinincreasingorderfails -->
+        <test-method is-config="true" signature="quiting()[pri:0, instance:wingifyAssignmentTest.WingifyTestCase03@4d465b11]" started-at="2024-05-25T14:35:55 IST" name="quiting" finished-at="2024-05-25T14:35:57 IST" duration-ms="1489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiting -->
+      </class> <!-- wingifyAssignmentTest.WingifyTestCase03 -->
+      <class name="wingifyAssignmentTest.WingifyTestCase04">
+        <test-method is-config="true" signature="launching()[pri:0, instance:wingifyAssignmentTest.WingifyTestCase04@53fdffa1]" started-at="2024-05-25T14:35:57 IST" name="launching" finished-at="2024-05-25T14:35:59 IST" duration-ms="2155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launching -->
+        <test-method signature="amountsortindecreasingorderfails()[pri:0, instance:wingifyAssignmentTest.WingifyTestCase04@53fdffa1]" started-at="2024-05-25T14:35:59 IST" name="amountsortindecreasingorderfails" finished-at="2024-05-25T14:36:15 IST" duration-ms="16570" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Amounts should sort in decreasing order expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Amounts should sort in decreasing order expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at wingifyAssignmentSource.HomePage.amountsortindecreasingorderfailure(HomePage.java:52)
+at wingifyAssignmentTest.WingifyTestCase04.amountsortindecreasingorderfails(WingifyTestCase04.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amountsortindecreasingorderfails -->
+        <test-method is-config="true" signature="quiting()[pri:0, instance:wingifyAssignmentTest.WingifyTestCase04@53fdffa1]" started-at="2024-05-25T14:36:15 IST" name="quiting" finished-at="2024-05-25T14:36:16 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiting -->
+      </class> <!-- wingifyAssignmentTest.WingifyTestCase04 -->
+      <class name="wingifyAssignmentTest.WingifyTestCase_01">
+        <test-method is-config="true" signature="launching()[pri:0, instance:wingifyAssignmentTest.WingifyTestCase_01@247d8ae]" started-at="2024-05-25T14:34:31 IST" name="launching" finished-at="2024-05-25T14:34:34 IST" duration-ms="3645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launching -->
+        <test-method signature="launchingandlogin()[pri:0, instance:wingifyAssignmentTest.WingifyTestCase_01@247d8ae]" started-at="2024-05-25T14:34:34 IST" name="launchingandlogin" finished-at="2024-05-25T14:35:08 IST" duration-ms="33617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingandlogin -->
+        <test-method is-config="true" signature="quiting()[pri:0, instance:wingifyAssignmentTest.WingifyTestCase_01@247d8ae]" started-at="2024-05-25T14:35:08 IST" name="quiting" finished-at="2024-05-25T14:35:08 IST" duration-ms="479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiting -->
+      </class> <!-- wingifyAssignmentTest.WingifyTestCase_01 -->
+      <class name="wingifyAssignmentTest.WingifyTestCase02">
+        <test-method is-config="true" signature="launching()[pri:0, instance:wingifyAssignmentTest.WingifyTestCase02@383bfa16]" started-at="2024-05-25T14:35:08 IST" name="launching" finished-at="2024-05-25T14:35:11 IST" duration-ms="2343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launching -->
+        <test-method signature="launchinghomepageafterlogin()[pri:0, instance:wingifyAssignmentTest.WingifyTestCase02@383bfa16]" started-at="2024-05-25T14:35:11 IST" name="launchinghomepageafterlogin" finished-at="2024-05-25T14:35:36 IST" duration-ms="25017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchinghomepageafterlogin -->
+        <test-method is-config="true" signature="quiting()[pri:0, instance:wingifyAssignmentTest.WingifyTestCase02@383bfa16]" started-at="2024-05-25T14:35:36 IST" name="quiting" finished-at="2024-05-25T14:35:36 IST" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiting -->
+      </class> <!-- wingifyAssignmentTest.WingifyTestCase02 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
