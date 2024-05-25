@@ -1,6 +1,5 @@
 package wingifyAssignmentSource;
 
-import java.util.Arrays;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
