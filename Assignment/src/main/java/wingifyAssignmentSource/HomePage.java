@@ -28,7 +28,7 @@ public class HomePage {
    public void amountsortinincreasingorder() throws InterruptedException
    {
 	   if(amount.isDisplayed()==true)
-		Assert.assertEquals(amount.isDisplayed()==true, true, "Amounts are sorted in increasing order");
+		Assert.assertEquals(amount.isDisplayed()==true, true);
 	   amount.click();
 	   Thread.sleep(4000);
    }
@@ -42,7 +42,7 @@ public class HomePage {
    public void amountsortindecreasingorder() throws InterruptedException
    {
 	   if(amount.isDisplayed()==true)
-		Assert.assertEquals(amount.isDisplayed()==true, true, "Amounts are sorted in decreasing order");
+		Assert.assertEquals(amount.isDisplayed()==true, true);
 	   amount.click();
 	   Thread.sleep(4000);
    }
